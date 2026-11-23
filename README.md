@@ -146,7 +146,7 @@ python3 -m http.server 8000
 ## 目录结构
 
 ```
-scholarchart/
+scholarship/
 ├── index.html          # 应用外壳（唯一入口）
 ├── src/
 │   ├── app.js          # 应用逻辑：切换/预设/编辑/导出
