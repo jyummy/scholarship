@@ -1,28 +1,40 @@
 /* ============ 应用外壳：图表切换 / 尺寸预设 / 配色 / 数据编辑 / 导出 ============ */
 
-import { PAL, PALETTES, FONT, setFont } from './core/svg.js?v=20261114h';
-import { tipHide } from './core/tip.js?v=20261114h';
-import { draw as trend } from './charts/trend.js?v=20261114h';
-import { draw as bars } from './charts/bars.js?v=20261114h';
-import { draw as heatmap } from './charts/heatmap.js?v=20261114h';
-import { draw as radar } from './charts/radar.js?v=20261114h';
-import { draw as raincloud } from './charts/raincloud.js?v=20261114h';
-import { draw as upset } from './charts/upset.js?v=20261114h';
-import { draw as slope } from './charts/slope.js?v=20261114h';
-import { draw as trendtopic } from './charts/trendtopic.js?v=20261114h';
-import { draw as thematic } from './charts/thematic.js?v=20261114h';
-import { draw as dotplot } from './charts/dotplot.js?v=20261114h';
-import { draw as forest } from './charts/forest.js?v=20261114h';
-import { draw as estimation } from './charts/estimation.js?v=20261114h';
-import { draw as ridgeline } from './charts/ridgeline.js?v=20261114h';
-import { draw as blandaltman } from './charts/blandaltman.js?v=20261114h';
-import { draw as kaplanmeier } from './charts/kaplanmeier.js?v=20261114h';
-import { draw as roc } from './charts/roc.js?v=20261114h';
-import { draw as qq } from './charts/qq.js?v=20261114h';
-import { draw as stl } from './charts/stl.js?v=20261114h';
-import { draw as network } from './charts/network.js?v=20261114h';
-import { draw as river } from './charts/river.js?v=20261114h';
-import { exportSVG, exportPNG, exportPDF } from './export.js?v=20261114h';
+import { PAL, PALETTES, FONT, setFont } from './core/svg.js?v=20261127a';
+import { tipHide } from './core/tip.js?v=20261127a';
+import { draw as trend } from './charts/trend.js?v=20261127a';
+import { draw as bars } from './charts/bars.js?v=20261127a';
+import { draw as heatmap } from './charts/heatmap.js?v=20261127a';
+import { draw as radar } from './charts/radar.js?v=20261127a';
+import { draw as raincloud } from './charts/raincloud.js?v=20261127a';
+import { draw as upset } from './charts/upset.js?v=20261127a';
+import { draw as slope } from './charts/slope.js?v=20261127a';
+import { draw as trendtopic } from './charts/trendtopic.js?v=20261127a';
+import { draw as thematic } from './charts/thematic.js?v=20261127a';
+import { draw as dotplot } from './charts/dotplot.js?v=20261127a';
+import { draw as forest } from './charts/forest.js?v=20261127a';
+import { draw as estimation } from './charts/estimation.js?v=20261127a';
+import { draw as ridgeline } from './charts/ridgeline.js?v=20261127a';
+import { draw as blandaltman } from './charts/blandaltman.js?v=20261127a';
+import { draw as kaplanmeier } from './charts/kaplanmeier.js?v=20261127a';
+import { draw as roc } from './charts/roc.js?v=20261127a';
+import { draw as qq } from './charts/qq.js?v=20261127a';
+import { draw as stl } from './charts/stl.js?v=20261127a';
+import { draw as network } from './charts/network.js?v=20261127a';
+import { draw as river } from './charts/river.js?v=20261127a';
+import { draw as halfeye } from './charts/halfeye.js?v=20261127a';
+import { draw as qdot } from './charts/qdot.js?v=20261127a';
+import { draw as hops } from './charts/hops.js?v=20261127a';
+import { draw as seastack } from './charts/seastack.js?v=20261127a';
+import { draw as beeswarm } from './charts/beeswarm.js?v=20261127a';
+import { draw as shap } from './charts/shap.js?v=20261127a';
+import { draw as embedding } from './charts/embedding.js?v=20261127a';
+import { draw as calibration } from './charts/calibration.js?v=20261127a';
+import { draw as dumbbell } from './charts/dumbbell.js?v=20261127a';
+import { draw as alluvial } from './charts/alluvial.js?v=20261127a';
+import { draw as dispersion } from './charts/dispersion.js?v=20261127a';
+import { draw as topicmap } from './charts/topicmap.js?v=20261127a';
+import { exportSVG, exportPNG, exportPDF } from './export.js?v=20261127a';
 
 const CHARTS = {
   trend: { name: '趋势图', mod: trend },
@@ -44,7 +56,19 @@ const CHARTS = {
   qq: { name: 'Q-Q 图', mod: qq },
   stl: { name: '时序分解', mod: stl },
   network: { name: '共现网络图', mod: network },
-  river: { name: '主题河流图', mod: river }
+  river: { name: '主题河流图', mod: river },
+  halfeye: { name: '半眼图', mod: halfeye },
+  qdot: { name: '分位点图', mod: qdot },
+  hops: { name: '假设结果图', mod: hops },
+  seastack: { name: '海堆图', mod: seastack },
+  beeswarm: { name: '蜂群图', mod: beeswarm },
+  shap: { name: 'SHAP 瀑布图', mod: shap },
+  embedding: { name: '嵌入投影图', mod: embedding },
+  calibration: { name: '校准图', mod: calibration },
+  dumbbell: { name: '哑铃图', mod: dumbbell },
+  alluvial: { name: '冲积图', mod: alluvial },
+  dispersion: { name: '词汇离散图', mod: dispersion },
+  topicmap: { name: '主题距离图', mod: topicmap }
 };
 
 const SIZES = [
@@ -64,7 +88,7 @@ const state = {
 const $ = s => document.querySelector(s);
 
 async function loadSamples() {
-  const list = await (await fetch('./samples/index.json?v=20261114h')).json();
+  const list = await (await fetch('./samples/index.json?v=20261127a')).json();
   const sel = $('#sampleSel');
   sel.innerHTML = '';
   for (const s of list) {
@@ -79,7 +103,7 @@ async function loadSamples() {
 }
 
 async function loadSample(file, type, resetType) {
-  const j = await (await fetch('./samples/' + file + '?v=20261114h')).json();
+  const j = await (await fetch('./samples/' + file + '?v=20261127a')).json();
   if (j.type && CHARTS[j.type]) { state.type = j.type; autoSize(j.type); }
   state.data = j.data;
   state.meta = { ...j.opts };
@@ -185,7 +209,7 @@ buildUI();
 loadSamples().catch(async e => {
   /* file:// 直开时 fetch 失败 → 内嵌兜底数据 */
   console.warn(e);
-  const { FALLBACK } = await import('./fallback.js?v=20261114h');
+  const { FALLBACK } = await import('./fallback.js?v=20261127a');
   state.type = 'trend'; state.data = FALLBACK.data; state.meta = { ...FALLBACK.opts };
   syncForm(); render();
 });

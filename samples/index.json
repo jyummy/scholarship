@@ -98,5 +98,65 @@
     "file": "river.json",
     "name": "敦煌学主题河流",
     "type": "river"
+  },
+  {
+    "file": "halfeye.json",
+    "name": "后验分布半眼图",
+    "type": "halfeye"
+  },
+  {
+    "file": "qdot.json",
+    "name": "预测得分分位点图",
+    "type": "qdot"
+  },
+  {
+    "file": "hops.json",
+    "name": "发文量预测假设结果图 HOPs",
+    "type": "hops"
+  },
+  {
+    "file": "seastack.json",
+    "name": "植株高度分布海堆图",
+    "type": "seastack"
+  },
+  {
+    "file": "beeswarm.json",
+    "name": "测验得分蜂群图",
+    "type": "beeswarm"
+  },
+  {
+    "file": "shap.json",
+    "name": "稿件入选预测 SHAP 瀑布图",
+    "type": "shap"
+  },
+  {
+    "file": "embedding.json",
+    "name": "文献嵌入投影图 UMAP",
+    "type": "embedding"
+  },
+  {
+    "file": "calibration.json",
+    "name": "预测模型校准图",
+    "type": "calibration"
+  },
+  {
+    "file": "dumbbell.json",
+    "name": "篇均被引哑铃图",
+    "type": "dumbbell"
+  },
+  {
+    "file": "alluvial.json",
+    "name": "毕业生流向冲积图",
+    "type": "alluvial"
+  },
+  {
+    "file": "dispersion.json",
+    "name": "核心词离散图",
+    "type": "dispersion"
+  },
+  {
+    "file": "topicmap.json",
+    "name": "主题间距离图 LDAvis",
+    "type": "topicmap"
   }
 ]

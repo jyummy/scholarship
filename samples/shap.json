@@ -1,0 +1,42 @@
+{
+ "type": "shap",
+ "data": {
+  "base": 0.2,
+  "features": [
+   {
+    "name": "核心期刊被引",
+    "value": 0.21
+   },
+   {
+    "name": "基金支持",
+    "value": 0.13
+   },
+   {
+    "name": "篇幅（万字）",
+    "value": 0.07
+   },
+   {
+    "name": "合作机构数",
+    "value": 0.05
+   },
+   {
+    "name": "作者职称",
+    "value": -0.04
+   },
+   {
+    "name": "选题热度",
+    "value": 0.1
+   }
+  ],
+  "x": {
+   "label": "预测值（入选概率）"
+  }
+ },
+ "opts": {
+  "title": "单篇稿件入选预测的 SHAP 分解",
+  "subtitle": "基线 0.20 起，逐项加减特征贡献，终值 = 预测概率",
+  "figLabel": "图 26",
+  "figTitle": "SHAP 瀑布图",
+  "note": "Lundberg & Lee (2017) SHAP：加性特征归因（示意数据）"
+ }
+}
