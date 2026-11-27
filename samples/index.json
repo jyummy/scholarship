@@ -1,182 +1,207 @@
 [
-  {
-    "file": "trend.json",
-    "name": "先秦诸子研究年度发文趋势",
-    "type": "trend"
-  },
-  {
-    "file": "bars.json",
-    "name": "核心概念被引量对比（含误差）",
-    "type": "bars"
-  },
-  {
-    "file": "heatmap.json",
-    "name": "诸子 × 核心概念共现矩阵",
-    "type": "heatmap"
-  },
-  {
-    "file": "radar.json",
-    "name": "研究方向多维对比",
-    "type": "radar"
-  },
-  {
-    "file": "raincloud.json",
-    "name": "被引量分布雨云图（原始数据+分布）",
-    "type": "raincloud"
-  },
-  {
-    "file": "upset.json",
-    "name": "概念集合交集 UpSet 图",
-    "type": "upset"
-  },
-  {
-    "file": "slope.json",
-    "name": "十年发文量坡度图",
-    "type": "slope"
-  },
-  {
-    "file": "trendtopic.json",
-    "name": "敦煌学关键词主题趋势图",
-    "type": "trendtopic"
-  },
-  {
-    "file": "thematic.json",
-    "name": "研究主题战略坐标图",
-    "type": "thematic"
-  },
-  {
-    "file": "dotplot.json",
-    "name": "篇均被引克利夫兰点图",
-    "type": "dotplot"
-  },
-  {
-    "file": "forest.json",
-    "name": "干预效应元分析森林图",
-    "type": "forest"
-  },
-  {
-    "file": "estimation.json",
-    "name": "教法差异估计图（bootstrap）",
-    "type": "estimation"
-  },
-  {
-    "file": "ridgeline.json",
-    "name": "十年发文量山脊图",
-    "type": "ridgeline"
-  },
-  {
-    "file": "blandaltman.json",
-    "name": "评分员一致性 Bland-Altman 图",
-    "type": "blandaltman"
-  },
-  {
-    "file": "kaplanmeier.json",
-    "name": "通过 HSK4 的 KM 生存曲线",
-    "type": "kaplanmeier"
-  },
-  {
-    "file": "roc.json",
-    "name": "续班判别 ROC 曲线",
-    "type": "roc"
-  },
-  {
-    "file": "qq.json",
-    "name": "成绩正态性 Q-Q 图",
-    "type": "qq"
-  },
-  {
-    "file": "stl.json",
-    "name": "月度发文量时序分解",
-    "type": "stl"
-  },
-  {
-    "file": "network.json",
-    "name": "数字人文关键词共现网络",
-    "type": "network"
-  },
-  {
-    "file": "river.json",
-    "name": "敦煌学主题河流",
-    "type": "river"
-  },
-  {
-    "file": "halfeye.json",
-    "name": "后验分布半眼图",
-    "type": "halfeye"
-  },
-  {
-    "file": "qdot.json",
-    "name": "预测得分分位点图",
-    "type": "qdot"
-  },
-  {
-    "file": "hops.json",
-    "name": "发文量预测假设结果图 HOPs",
-    "type": "hops"
-  },
-  {
-    "file": "seastack.json",
-    "name": "植株高度分布海堆图",
-    "type": "seastack"
-  },
-  {
-    "file": "beeswarm.json",
-    "name": "测验得分蜂群图",
-    "type": "beeswarm"
-  },
-  {
-    "file": "shap.json",
-    "name": "稿件入选预测 SHAP 瀑布图",
-    "type": "shap"
-  },
-  {
-    "file": "embedding.json",
-    "name": "文献嵌入投影图 UMAP",
-    "type": "embedding"
-  },
-  {
-    "file": "calibration.json",
-    "name": "预测模型校准图",
-    "type": "calibration"
-  },
-  {
-    "file": "dumbbell.json",
-    "name": "篇均被引哑铃图",
-    "type": "dumbbell"
-  },
-  {
-    "file": "alluvial.json",
-    "name": "毕业生流向冲积图",
-    "type": "alluvial"
-  },
-  {
-    "file": "dispersion.json",
-    "name": "核心词离散图",
-    "type": "dispersion"
-  },
-  {
-    "file": "topicmap.json",
-    "name": "主题间距离图 LDAvis",
-    "type": "topicmap"
-  },
-  {
-    "file": "volcano.json",
-    "name": "唐宋诗语料差异词火山图",
-    "type": "volcano"
-  },
-  {
-    "file": "manhattan.json",
-    "name": "《红楼梦》关键词显著性曼哈顿图",
-    "type": "manhattan"
-  },
-  {
-    "file": "multiverse.json",
-    "name": "文本效应稳健性多元宇宙图",
-    "type": "multiverse"
-  },
-  {
-    "file": "circos.json",
-    "name": "《红楼梦》人物关系弦环图",
-    "type": "circos"
-  }
+ {
+  "file": "trend.json",
+  "name": "先秦诸子研究年度发文趋势",
+  "type": "trend"
+ },
+ {
+  "file": "bars.json",
+  "name": "核心概念被引量对比（含误差）",
+  "type": "bars"
+ },
+ {
+  "file": "heatmap.json",
+  "name": "诸子 × 核心概念共现矩阵",
+  "type": "heatmap"
+ },
+ {
+  "file": "radar.json",
+  "name": "研究方向多维对比",
+  "type": "radar"
+ },
+ {
+  "file": "raincloud.json",
+  "name": "被引量分布雨云图（原始数据+分布）",
+  "type": "raincloud"
+ },
+ {
+  "file": "upset.json",
+  "name": "概念集合交集 UpSet 图",
+  "type": "upset"
+ },
+ {
+  "file": "slope.json",
+  "name": "十年发文量坡度图",
+  "type": "slope"
+ },
+ {
+  "file": "trendtopic.json",
+  "name": "敦煌学关键词主题趋势图",
+  "type": "trendtopic"
+ },
+ {
+  "file": "thematic.json",
+  "name": "研究主题战略坐标图",
+  "type": "thematic"
+ },
+ {
+  "file": "dotplot.json",
+  "name": "篇均被引克利夫兰点图",
+  "type": "dotplot"
+ },
+ {
+  "file": "forest.json",
+  "name": "干预效应元分析森林图",
+  "type": "forest"
+ },
+ {
+  "file": "estimation.json",
+  "name": "教法差异估计图（bootstrap）",
+  "type": "estimation"
+ },
+ {
+  "file": "ridgeline.json",
+  "name": "十年发文量山脊图",
+  "type": "ridgeline"
+ },
+ {
+  "file": "blandaltman.json",
+  "name": "评分员一致性 Bland-Altman 图",
+  "type": "blandaltman"
+ },
+ {
+  "file": "kaplanmeier.json",
+  "name": "通过 HSK4 的 KM 生存曲线",
+  "type": "kaplanmeier"
+ },
+ {
+  "file": "roc.json",
+  "name": "续班判别 ROC 曲线",
+  "type": "roc"
+ },
+ {
+  "file": "qq.json",
+  "name": "成绩正态性 Q-Q 图",
+  "type": "qq"
+ },
+ {
+  "file": "stl.json",
+  "name": "月度发文量时序分解",
+  "type": "stl"
+ },
+ {
+  "file": "network.json",
+  "name": "数字人文关键词共现网络",
+  "type": "network"
+ },
+ {
+  "file": "river.json",
+  "name": "敦煌学主题河流",
+  "type": "river"
+ },
+ {
+  "file": "halfeye.json",
+  "name": "后验分布半眼图",
+  "type": "halfeye"
+ },
+ {
+  "file": "qdot.json",
+  "name": "预测得分分位点图",
+  "type": "qdot"
+ },
+ {
+  "file": "hops.json",
+  "name": "发文量预测假设结果图 HOPs",
+  "type": "hops"
+ },
+ {
+  "file": "seastack.json",
+  "name": "植株高度分布海堆图",
+  "type": "seastack"
+ },
+ {
+  "file": "beeswarm.json",
+  "name": "测验得分蜂群图",
+  "type": "beeswarm"
+ },
+ {
+  "file": "shap.json",
+  "name": "稿件入选预测 SHAP 瀑布图",
+  "type": "shap"
+ },
+ {
+  "file": "embedding.json",
+  "name": "文献嵌入投影图 UMAP",
+  "type": "embedding"
+ },
+ {
+  "file": "calibration.json",
+  "name": "预测模型校准图",
+  "type": "calibration"
+ },
+ {
+  "file": "dumbbell.json",
+  "name": "篇均被引哑铃图",
+  "type": "dumbbell"
+ },
+ {
+  "file": "alluvial.json",
+  "name": "毕业生流向冲积图",
+  "type": "alluvial"
+ },
+ {
+  "file": "dispersion.json",
+  "name": "核心词离散图",
+  "type": "dispersion"
+ },
+ {
+  "file": "topicmap.json",
+  "name": "主题间距离图 LDAvis",
+  "type": "topicmap"
+ },
+ {
+  "file": "volcano.json",
+  "name": "唐宋诗语料差异词火山图",
+  "type": "volcano"
+ },
+ {
+  "file": "manhattan.json",
+  "name": "《红楼梦》关键词显著性曼哈顿图",
+  "type": "manhattan"
+ },
+ {
+  "file": "multiverse.json",
+  "name": "文本效应稳健性多元宇宙图",
+  "type": "multiverse"
+ },
+ {
+  "file": "circos.json",
+  "name": "《红楼梦》人物关系弦环图",
+  "type": "circos"
+ },
+ {
+  "file": "spiral.json",
+  "name": "「梅」字月份分布螺旋图",
+  "type": "spiral"
+ },
+ {
+  "file": "horizon.json",
+  "name": "唐宋诗人存诗量地平线图",
+  "type": "horizon"
+ },
+ {
+  "file": "sunburst.json",
+  "name": "四部分类藏书旭日图",
+  "type": "sunburst"
+ },
+ {
+  "file": "arc.json",
+  "name": "《红楼梦》人物共现弧线图",
+  "type": "arc"
+ },
+ {
+  "file": "parcoords.json",
+  "name": "唐宋作者文体计量平行坐标图",
+  "type": "parcoords"
+ }
 ]

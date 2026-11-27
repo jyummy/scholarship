@@ -1,9 +1,9 @@
 /* ============ 柱状图（分组 · 横向可选 · 误差棒 · 数值标注） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128a';
-import { niceTicks, linear } from '../core/scale.js?v=20261128a';
-import { tip, tipHide } from '../core/tip.js?v=20261128a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128b';
+import { niceTicks, linear } from '../core/scale.js?v=20261128b';
+import { tip, tipHide } from '../core/tip.js?v=20261128b';
 
 /*
  * data = {

@@ -1,9 +1,9 @@
 /* ============ 趋势图（多序列 · 平滑可选 · 置信带） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
-import { axisFrame, caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128a';
-import { smoothPath } from '../core/scale.js?v=20261128a';
-import { tip, tipMove, tipHide, hoverable } from '../core/tip.js?v=20261128a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
+import { axisFrame, caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128b';
+import { smoothPath } from '../core/scale.js?v=20261128b';
+import { tip, tipMove, tipHide, hoverable } from '../core/tip.js?v=20261128b';
 
 /*
  * data = {

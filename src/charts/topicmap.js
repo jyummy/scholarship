@@ -1,10 +1,10 @@
 /* ============ 主题距离图（LDAvis 式：主题间距离投影 + 主题占比气泡） ============ */
 /* Sievert & Shirley 2014, LDAvis：气泡面积 ∝ 主题占比，距离 = 主题间 Jensen-Shannon 距离的 MDS 投影 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128a';
-import { niceTicks, linear } from '../core/scale.js?v=20261128a';
-import { tip, tipHide } from '../core/tip.js?v=20261128a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128b';
+import { niceTicks, linear } from '../core/scale.js?v=20261128b';
+import { tip, tipHide } from '../core/tip.js?v=20261128b';
 
 /*
  * data = {

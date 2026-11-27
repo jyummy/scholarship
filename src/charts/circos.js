@@ -1,8 +1,8 @@
 /* ============ 弦环图 Circos（环形分段 + 弦带关系：总览多对多关系的经典图型） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128a';
-import { tip, tipHide } from '../core/tip.js?v=20261128a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128b';
+import { tip, tipHide } from '../core/tip.js?v=20261128b';
 
 /*
  * data = {

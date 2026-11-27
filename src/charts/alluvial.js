@@ -1,8 +1,8 @@
 /* ============ 冲积图（Alluvial：类目在多个阶段之间的流动，桑基图的类目版） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128a';
-import { tip, tipHide } from '../core/tip.js?v=20261128a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128b';
+import { tip, tipHide } from '../core/tip.js?v=20261128b';
 
 /*
  * data = {

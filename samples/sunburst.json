@@ -1,0 +1,125 @@
+{
+ "type": "sunburst",
+ "data": {
+  "tree": {
+   "name": "四部总目",
+   "children": [
+    {
+     "name": "经部",
+     "children": [
+      {
+       "name": "易类",
+       "value": 214
+      },
+      {
+       "name": "书类",
+       "value": 156
+      },
+      {
+       "name": "诗类",
+       "value": 178
+      },
+      {
+       "name": "礼类",
+       "value": 232
+      },
+      {
+       "name": "春秋类",
+       "value": 141
+      },
+      {
+       "name": "小学类",
+       "value": 168
+      }
+     ]
+    },
+    {
+     "name": "史部",
+     "children": [
+      {
+       "name": "正史类",
+       "value": 486
+      },
+      {
+       "name": "编年类",
+       "value": 132
+      },
+      {
+       "name": "纪事本末类",
+       "value": 98
+      },
+      {
+       "name": "别史类",
+       "value": 176
+      },
+      {
+       "name": "杂史类",
+       "value": 154
+      }
+     ]
+    },
+    {
+     "name": "子部",
+     "children": [
+      {
+       "name": "儒家类",
+       "value": 203
+      },
+      {
+       "name": "兵家类",
+       "value": 88
+      },
+      {
+       "name": "法家类",
+       "value": 64
+      },
+      {
+       "name": "医家类",
+       "value": 236
+      },
+      {
+       "name": "天文算法类",
+       "value": 112
+      },
+      {
+       "name": "术数类",
+       "value": 97
+      }
+     ]
+    },
+    {
+     "name": "集部",
+     "children": [
+      {
+       "name": "楚辞类",
+       "value": 42
+      },
+      {
+       "name": "别集类",
+       "value": 1240
+      },
+      {
+       "name": "总集类",
+       "value": 386
+      },
+      {
+       "name": "诗文评类",
+       "value": 158
+      },
+      {
+       "name": "词曲类",
+       "value": 264
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "opts": {
+  "title": "四部分类藏书构成旭日图",
+  "subtitle": "内环四部 · 外环类目 · 角度 ∝ 部数",
+  "figLabel": "图 39",
+  "figTitle": "四部藏书旭日图",
+  "note": "部数为示意数据；集部别集类独大，与传统藏书结构相符"
+ }
+}
