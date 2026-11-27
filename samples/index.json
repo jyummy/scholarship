@@ -158,5 +158,25 @@
     "file": "topicmap.json",
     "name": "主题间距离图 LDAvis",
     "type": "topicmap"
+  },
+  {
+    "file": "volcano.json",
+    "name": "唐宋诗语料差异词火山图",
+    "type": "volcano"
+  },
+  {
+    "file": "manhattan.json",
+    "name": "《红楼梦》关键词显著性曼哈顿图",
+    "type": "manhattan"
+  },
+  {
+    "file": "multiverse.json",
+    "name": "文本效应稳健性多元宇宙图",
+    "type": "multiverse"
+  },
+  {
+    "file": "circos.json",
+    "name": "《红楼梦》人物关系弦环图",
+    "type": "circos"
   }
 ]

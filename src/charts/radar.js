@@ -1,9 +1,9 @@
 /* ============ 雷达图（多维对比 · 淡填充 · 同心发丝环） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261127a';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261127a';
-import { smoothPath } from '../core/scale.js?v=20261127a';
-import { tip, tipHide } from '../core/tip.js?v=20261127a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128a';
+import { smoothPath } from '../core/scale.js?v=20261128a';
+import { tip, tipHide } from '../core/tip.js?v=20261128a';
 
 /*
  * data = {

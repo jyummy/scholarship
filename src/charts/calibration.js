@@ -1,9 +1,9 @@
 /* ============ 校准图（预测概率 vs 实际频率：点大小 = 样本量，附 ECE） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261127a';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261127a';
-import { linear } from '../core/scale.js?v=20261127a';
-import { tip, tipHide } from '../core/tip.js?v=20261127a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128a';
+import { linear } from '../core/scale.js?v=20261128a';
+import { tip, tipHide } from '../core/tip.js?v=20261128a';
 
 /*
  * data = {

@@ -1,10 +1,10 @@
 /* ============ 分位点图（Quantile dotplot：离散圆点编码分布，频率框架表达不确定性） ============ */
 /* Kay et al.：每个点 = 一个等概率分位结果，数点即读概率 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261127a';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261127a';
-import { niceTicks, linear } from '../core/scale.js?v=20261127a';
-import { tip, tipHide } from '../core/tip.js?v=20261127a';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128a';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128a';
+import { niceTicks, linear } from '../core/scale.js?v=20261128a';
+import { tip, tipHide } from '../core/tip.js?v=20261128a';
 
 /*
  * data = {
