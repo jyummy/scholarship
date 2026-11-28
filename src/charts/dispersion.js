@@ -1,10 +1,10 @@
 /* ============ 词汇离散图（Lexical dispersion plot：词在文本全程的出现位置） ============ */
 /* 语料库语言学经典图型：每行一词，竖线 = 一次出现，横轴 = 文本进程 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128c';
-import { niceTicks, linear } from '../core/scale.js?v=20261128c';
-import { tip, tipHide } from '../core/tip.js?v=20261128c';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128d';
+import { niceTicks, linear } from '../core/scale.js?v=20261128d';
+import { tip, tipHide } from '../core/tip.js?v=20261128d';
 
 /*
  * data = {

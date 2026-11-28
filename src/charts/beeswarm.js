@@ -1,9 +1,9 @@
 /* ============ 蜂群图（Beeswarm：原始点互不重叠地排开，分布与样本量同时可见） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128c';
-import { niceTicks, linear } from '../core/scale.js?v=20261128c';
-import { tip, tipHide } from '../core/tip.js?v=20261128c';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128d';
+import { niceTicks, linear } from '../core/scale.js?v=20261128d';
+import { tip, tipHide } from '../core/tip.js?v=20261128d';
 
 /*
  * data = {

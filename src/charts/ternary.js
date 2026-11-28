@@ -1,8 +1,8 @@
 /* ============ 三元图（三分量构成：点在三角形内的位置即三者比例） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128c';
-import { tip, tipHide } from '../core/tip.js?v=20261128c';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128d';
+import { tip, tipHide } from '../core/tip.js?v=20261128d';
 
 /*
  * data = {

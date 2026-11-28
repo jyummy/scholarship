@@ -1,9 +1,9 @@
 /* ============ 坡度图（两时间点间的排名/数值流转） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128c';
-import { niceTicks, linear } from '../core/scale.js?v=20261128c';
-import { tip, tipHide } from '../core/tip.js?v=20261128c';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128d';
+import { niceTicks, linear } from '../core/scale.js?v=20261128d';
+import { tip, tipHide } from '../core/tip.js?v=20261128d';
 
 /*
  * data = {

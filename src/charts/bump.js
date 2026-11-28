@@ -1,9 +1,9 @@
 /* ============ 凹凸图（排名变迁：多期名次连线，交叉即易位） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128c';
-import { linear, smoothPath } from '../core/scale.js?v=20261128c';
-import { tip, tipHide } from '../core/tip.js?v=20261128c';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128d';
+import { linear, smoothPath } from '../core/scale.js?v=20261128d';
+import { tip, tipHide } from '../core/tip.js?v=20261128d';
 
 /*
  * data = {

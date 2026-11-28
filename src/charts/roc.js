@@ -1,10 +1,10 @@
 /* ============ ROC 曲线（诊断准确性 + AUC + Youden 最佳切点） ============ */
 /* signal detection —— 灵敏度 / 特异度权衡的标准呈现 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128c';
-import { linear, mulberry32 } from '../core/scale.js?v=20261128c';
-import { tip, tipHide } from '../core/tip.js?v=20261128c';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128d';
+import { linear, mulberry32 } from '../core/scale.js?v=20261128d';
+import { tip, tipHide } from '../core/tip.js?v=20261128d';
 
 /* 秩法 AUC（含并列平均秩） */
 function aucRank(pos, neg) {

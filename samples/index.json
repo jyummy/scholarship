@@ -228,5 +228,15 @@
   "file": "ternary.json",
   "name": "唐宋作者诗、词、文三体占比三元图",
   "type": "ternary"
+ },
+ {
+  "file": "recurrence.json",
+  "name": "《红楼梦》前 40 回「梦」字密度递归图",
+  "type": "recurrence"
+ },
+ {
+  "file": "hexbin.json",
+  "name": "唐宋诗人存诗量 × 平均篇长蜂巢图",
+  "type": "hexbin"
  }
 ]
