@@ -203,5 +203,30 @@
   "file": "parcoords.json",
   "name": "唐宋作者文体计量平行坐标图",
   "type": "parcoords"
+ },
+ {
+  "file": "treemap.json",
+  "name": "四库全书部类卷数矩形树图",
+  "type": "treemap"
+ },
+ {
+  "file": "waffle.json",
+  "name": "《唐诗三百首》体裁构成华夫饼图",
+  "type": "waffle"
+ },
+ {
+  "file": "bump.json",
+  "name": "六位诗人历代选本排名变迁凹凸图",
+  "type": "bump"
+ },
+ {
+  "file": "calendar.json",
+  "name": "2026 年备考日记逐日字数日历热力图",
+  "type": "calendar"
+ },
+ {
+  "file": "ternary.json",
+  "name": "唐宋作者诗、词、文三体占比三元图",
+  "type": "ternary"
  }
 ]

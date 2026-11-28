@@ -1,10 +1,10 @@
 /* ============ 假设结果图（HOPs：Hypothetical Outcome Plots） ============ */
 /* Hullman et al.：把抽样结果逐帧轮播，用动画帧表达不确定性；此处以多帧叠印 + 中位线呈现 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128b';
-import { niceTicks, linear } from '../core/scale.js?v=20261128b';
-import { tip, tipHide } from '../core/tip.js?v=20261128b';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128c';
+import { niceTicks, linear } from '../core/scale.js?v=20261128c';
+import { tip, tipHide } from '../core/tip.js?v=20261128c';
 
 /*
  * data = {

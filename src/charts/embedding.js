@@ -1,9 +1,9 @@
 /* ============ 嵌入投影散点图（UMAP / t-SNE 降维投影：聚类结构与密度） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128b';
-import { niceTicks, linear } from '../core/scale.js?v=20261128b';
-import { tip, tipHide } from '../core/tip.js?v=20261128b';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128c';
+import { niceTicks, linear } from '../core/scale.js?v=20261128c';
+import { tip, tipHide } from '../core/tip.js?v=20261128c';
 
 /*
  * data = {

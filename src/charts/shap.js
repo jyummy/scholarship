@@ -1,10 +1,10 @@
 /* ============ SHAP 瀑布图（单个预测的特征贡献分解：基线 + 逐项加减 = 预测值） ============ */
 /* Lundberg & Lee 2017, SHAP (SHapley Additive exPlanations) */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128b';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128b';
-import { niceTicks, linear } from '../core/scale.js?v=20261128b';
-import { tip, tipHide } from '../core/tip.js?v=20261128b';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128c';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128c';
+import { niceTicks, linear } from '../core/scale.js?v=20261128c';
+import { tip, tipHide } from '../core/tip.js?v=20261128c';
 
 /*
  * data = {
