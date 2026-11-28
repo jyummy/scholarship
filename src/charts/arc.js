@@ -1,9 +1,9 @@
 /* ============ 弧线图（一维基线布局 + 弧形连边：文本结构与共现关系的极简网络图） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128d';
-import { linear } from '../core/scale.js?v=20261128d';
-import { tip, tipHide } from '../core/tip.js?v=20261128d';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128e';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128e';
+import { linear } from '../core/scale.js?v=20261128e';
+import { tip, tipHide } from '../core/tip.js?v=20261128e';
 
 /*
  * data = {

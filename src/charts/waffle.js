@@ -1,8 +1,8 @@
 /* ============ 华夫饼图（构成占比：每格 = 总量的 1/N，适合讲份额而非精确值） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128d';
-import { tip, tipHide } from '../core/tip.js?v=20261128d';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128e';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128e';
+import { tip, tipHide } from '../core/tip.js?v=20261128e';
 
 /*
  * data = {

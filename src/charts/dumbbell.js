@@ -1,9 +1,9 @@
 /* ============ 哑铃图（两时点/两组对比：两点一线，差异方向与幅度一目了然） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128d';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128d';
-import { niceTicks, linear } from '../core/scale.js?v=20261128d';
-import { tip, tipHide } from '../core/tip.js?v=20261128d';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128e';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128e';
+import { niceTicks, linear } from '../core/scale.js?v=20261128e';
+import { tip, tipHide } from '../core/tip.js?v=20261128e';
 
 /*
  * data = {
