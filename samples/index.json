@@ -225,13 +225,8 @@
   "type": "ternary"
  },
  {
-  "file": "recurrence.json",
-  "name": "《红楼梦》前 26 回母题复现递归图",
-  "type": "recurrence"
- },
- {
-  "file": "hive.json",
-  "name": "《红楼梦》人物关系蜂巢图",
-  "type": "hive"
+  "file": "weektraffic.json",
+  "name": "Ashburn, VA — Weekly Traffic Analysis",
+  "type": "weektraffic"
  }
 ]

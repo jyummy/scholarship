@@ -1,8 +1,8 @@
 /* ============ 矩形树图（层级占比：面积即份额，两级 squarified 布局） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128e';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128e';
-import { tip, tipHide } from '../core/tip.js?v=20261128e';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128f';
+import { tip, tipHide } from '../core/tip.js?v=20261128f';
 
 /*
  * data = {

@@ -26,7 +26,7 @@
 <tr><td align="center" width="33%"><img src="gallery/spiral.svg" alt="「梅」字月份分布螺旋图"><br><sub>图 37 · 「梅」字月份分布螺旋图</sub></td><td align="center" width="33%"><img src="gallery/horizon.svg" alt="唐宋诗人存诗量地平线图"><br><sub>图 38 · 唐宋诗人存诗量地平线图</sub></td><td align="center" width="33%"><img src="gallery/sunburst.svg" alt="四部分类藏书旭日图"><br><sub>图 39 · 四部分类藏书旭日图</sub></td></tr>
 <tr><td align="center" width="33%"><img src="gallery/arc.svg" alt="《红楼梦》人物共现弧线图"><br><sub>图 40 · 《红楼梦》人物共现弧线图</sub></td><td align="center" width="33%"><img src="gallery/parcoords.svg" alt="唐宋作者文体计量平行坐标图"><br><sub>图 41 · 唐宋作者文体计量平行坐标图</sub></td><td align="center" width="33%"><img src="gallery/treemap.svg" alt="四库全书部类卷数矩形树图"><br><sub>图 42 · 四库全书部类卷数矩形树图</sub></td></tr>
 <tr><td align="center" width="33%"><img src="gallery/waffle.svg" alt="《唐诗三百首》体裁构成华夫饼图"><br><sub>图 43 · 《唐诗三百首》体裁构成华夫饼图</sub></td><td align="center" width="33%"><img src="gallery/bump.svg" alt="六位诗人历代选本排名变迁凹凸图"><br><sub>图 44 · 六位诗人历代选本排名变迁凹凸图</sub></td><td align="center" width="33%"><img src="gallery/ternary.svg" alt="唐宋作者诗、词、文三体占比三元图"><br><sub>图 45 · 唐宋作者诗、词、文三体占比三元图</sub></td></tr>
-<tr><td align="center" width="33%"><img src="gallery/recurrence.svg" alt="《红楼梦》前 26 回母题复现递归图"><br><sub>图 46 · 《红楼梦》前 26 回母题复现递归图</sub></td><td align="center" width="33%"><img src="gallery/hive.svg" alt="《红楼梦》人物关系蜂巢图"><br><sub>图 47 · 《红楼梦》人物关系蜂巢图</sub></td></tr>
+<tr><td align="center" width="33%"><img src="gallery/weektraffic.svg" alt="Ashburn, VA — Weekly Traffic Analysis"><br><sub>图 46 · Ashburn, VA — Weekly Traffic Analysis</sub></td></tr>
 </table>
 
 ## 为什么造它
@@ -152,8 +152,7 @@ ScholarChart 站在断层中间：**把期刊规范做成默认值，把淡雅�
 | 华夫饼图 | 构成占比（受众版） | 10×10 格阵：每格 1% + 取整微调保总和 |
 | 凹凸图 | 多期排名变迁 | 名次连线 + null 断线 + 首末标签避让 |
 | 三元图 | 三分量构成 | 重心坐标定位 + 三组等值网格 + 分组着色 |
-| 递归图 | 母题复现与序列自相似 | 共享计数矩阵 / ε 阈值双模式点阵 + 点阵率图内标注 |
-| 蜂巢图 | 分组网络（人物/机构关系） | 节点按身份钉在辐射轴上 + 向心弧线连关系，无随机布局 |
+| 周流量图 | 一周逐小时流量分析 | 168 小时曲线 + 周末底纹 + 峰值标注 + 周均虚线 |
 
 ## 快速开始
 

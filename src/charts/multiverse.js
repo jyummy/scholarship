@@ -1,9 +1,9 @@
 /* ============ 多元宇宙图（稳健性检验：上 = 全部规格估计的密度分布，下 = 分箱决策面板） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128e';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128e';
-import { niceTicks, linear, kde, smoothPath } from '../core/scale.js?v=20261128e';
-import { tip, tipHide } from '../core/tip.js?v=20261128e';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128f';
+import { niceTicks, linear, kde, smoothPath } from '../core/scale.js?v=20261128f';
+import { tip, tipHide } from '../core/tip.js?v=20261128f';
 
 /*
  * data = {
