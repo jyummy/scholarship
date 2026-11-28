@@ -1,9 +1,9 @@
 /* ============ 地平线图（多序列高密度时序：色带分层折叠，一屏塞下多条序列） ============ */
 
-import { el, text, INK, SEQUENTIAL } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128f';
-import { linear } from '../core/scale.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, SEQUENTIAL } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128g';
+import { linear } from '../core/scale.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {

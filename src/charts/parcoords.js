@@ -1,9 +1,9 @@
 /* ============ 平行坐标图（多维个体画像：每维独立标度，折线穿越多轴对比多指标） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128f';
-import { niceTicks, linear, smoothPath } from '../core/scale.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128g';
+import { niceTicks, linear, smoothPath } from '../core/scale.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {

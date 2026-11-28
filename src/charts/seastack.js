@@ -1,10 +1,10 @@
 /* ============ 海堆图（Sea stack plot：竖直方图 + 摘要统计，替代柱状图） ============ */
 /* 2024, Ecology and Evolution：以分箱直方图呈现大样本单变量分布 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128f';
-import { niceTicks, linear } from '../core/scale.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128g';
+import { niceTicks, linear } from '../core/scale.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {

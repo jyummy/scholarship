@@ -1,9 +1,9 @@
 /* ============ 周流量图（一周 168 小时流量曲线：周末底纹 + 峰值标注 + 均值线） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128f';
-import { niceTicks, linear, smoothPath } from '../core/scale.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128g';
+import { niceTicks, linear, smoothPath } from '../core/scale.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {

@@ -1,8 +1,8 @@
 /* ============ 共现网络图（Co-occurrence Network，VOSviewer 式） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {

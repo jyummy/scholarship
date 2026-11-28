@@ -1,8 +1,8 @@
 /* ============ 旭日图（层级同心环：角度 ∝ 量，环层 = 深度，层级占比总览） ============ */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, legend, fmt } from '../core/axis.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {

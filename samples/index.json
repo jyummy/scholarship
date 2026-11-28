@@ -228,5 +228,10 @@
   "file": "weektraffic.json",
   "name": "Ashburn, VA — Weekly Traffic Analysis",
   "type": "weektraffic"
+ },
+ {
+  "file": "atlas.json",
+  "name": "唐诗题材语义向量嵌入图谱图",
+  "type": "atlas"
  }
 ]

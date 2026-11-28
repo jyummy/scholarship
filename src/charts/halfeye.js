@@ -1,10 +1,10 @@
 /* ============ 半眼图（Half-eye：半密度 + 点区间，贝叶斯后验分布标准画法） ============ */
 /* Kay, ggdist / tidybayes：slab + interval 语法 */
 
-import { el, text, INK, colors } from '../core/svg.js?v=20261128f';
-import { caption, figureNote, fmt } from '../core/axis.js?v=20261128f';
-import { niceTicks, linear, kde } from '../core/scale.js?v=20261128f';
-import { tip, tipHide } from '../core/tip.js?v=20261128f';
+import { el, text, INK, colors } from '../core/svg.js?v=20261128g';
+import { caption, figureNote, fmt } from '../core/axis.js?v=20261128g';
+import { niceTicks, linear, kde } from '../core/scale.js?v=20261128g';
+import { tip, tipHide } from '../core/tip.js?v=20261128g';
 
 /*
  * data = {
